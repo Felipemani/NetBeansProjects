@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jnlp href="launch.jnlp" spec="1.0+">
+    <information>
+        <title>cliente</title>
+        <vendor>Thiago</vendor>
+        <homepage href=""/>
+        <description>cliente</description>
+        <description kind="short">cliente</description>
+    </information>
+    <update check="always"/>
+    <resources>
+        <j2se version="1.8+"/>
+        <jar href="cliente.jar" main="true"/>
+    </resources>
+    <application-desc main-class="cliente.Cliente">
+    </application-desc>
+</jnlp>
